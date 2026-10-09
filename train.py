@@ -4,12 +4,12 @@ def main():
     MODEL_NAME = "yolo11n.pt"
     DATASET_CONFIG = "./dataset/data.yaml"
 
-    EPOCHS = 50
+    EPOCHS = 100
     IMAGE_SIZE = 1080
     BATCH_SIZE = 16
     WORKERS = 4
 
-    EXPERIMENT_NAME = "baseline_50ep_1080"
+    EXPERIMENT_NAME = "baseline_100ep_1080"
 
     model = YOLO(MODEL_NAME)
 
